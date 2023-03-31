@@ -3,6 +3,7 @@ import './App.css';
 import ClassCounter from './components/ClassCounter';
 import ClassMouse from './components/ClassMouse';
 import ComponentC from './components/ComponentC';
+import CounterOne from './components/CounterOne';
 import DataFetching from './components/DataFetching';
 import HookCounter from './components/HookCounter';
 import HookCounterFour from './components/HookCounterFour';
@@ -33,11 +34,13 @@ function App() {
       {/* <IntervalHookCounter />  */}
       {/* <DataFetching />  */}
 
-      <UserContext.Provider value={'Slavcho'}>
+      {/* <UserContext.Provider value={'Slavcho'}>
         <ChanelContext.Provider value={'Codevolution'}>
           <ComponentC />
         </ChanelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <CounterOne />
     </div>
   );
 }
