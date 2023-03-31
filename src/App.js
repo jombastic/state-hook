@@ -4,6 +4,7 @@ import ClassCounter from './components/ClassCounter';
 import ClassMouse from './components/ClassMouse';
 import ComponentC from './components/ComponentC';
 import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
 import DataFetching from './components/DataFetching';
 import HookCounter from './components/HookCounter';
 import HookCounterFour from './components/HookCounterFour';
@@ -40,7 +41,8 @@ function App() {
         </ChanelContext.Provider>
       </UserContext.Provider> */}
 
-      <CounterOne />
+      {/* <CounterOne /> */}
+      <CounterTwo />
     </div>
   );
 }
