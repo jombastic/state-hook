@@ -8,7 +8,8 @@ const ComponentE = () => {
 
   return (
     <div>
-      {user} - {chanel}
+      {/* {user} - {chanel} */}
+      <ComponentF />
     </div>
   )
 }
