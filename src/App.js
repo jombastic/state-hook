@@ -9,6 +9,7 @@ import CounterOne from './components/CounterOne';
 import CounterThree from './components/CounterThree';
 import CounterTwo from './components/CounterTwo';
 import DataFetching from './components/DataFetching';
+import DataFetchingOne from './components/DataFetchingOne';
 import HookCounter from './components/HookCounter';
 import HookCounterFour from './components/HookCounterFour';
 import HookCounterOne from './components/HookCounterOne';
@@ -66,12 +67,14 @@ function App() {
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
 
-      <div>Count - {count}</div>
+      {/* <div>Count - {count}</div>
       <CountContext.Provider value={{ countState: count, countDispatch: dispatch }}>
         <ComponentA />
         <ComponentB />
         <ComponentC />
-      </CountContext.Provider>
+      </CountContext.Provider> */}
+
+      <DataFetchingOne />
     </div>
   );
 }
