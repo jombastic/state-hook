@@ -20,6 +20,7 @@ import HookMouse from './components/HookMouse';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
+import ParentComponent from './components/ParentComponent';
 
 export const UserContext = createContext();
 export const ChanelContext = createContext()
@@ -76,7 +77,9 @@ function App() {
       </CountContext.Provider> */}
 
       {/* <DataFetchingOne /> */}
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
+      
+      <ParentComponent />
     </div>
   );
 }
