@@ -5,6 +5,7 @@ import ClassMouse from './components/ClassMouse';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
+import Counter from './components/Counter';
 import CounterOne from './components/CounterOne';
 import CounterThree from './components/CounterThree';
 import CounterTwo from './components/CounterTwo';
@@ -79,7 +80,9 @@ function App() {
       {/* <DataFetchingOne /> */}
       {/* <DataFetchingTwo /> */}
       
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+
+      <Counter />
     </div>
   );
 }
