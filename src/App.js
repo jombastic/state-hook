@@ -12,6 +12,7 @@ import CounterTwo from './components/CounterTwo';
 import DataFetching from './components/DataFetching';
 import DataFetchingOne from './components/DataFetchingOne';
 import DataFetchingTwo from './components/DataFetchingTwo';
+import FocusInput from './components/FocusInput';
 import HookCounter from './components/HookCounter';
 import HookCounterFour from './components/HookCounterFour';
 import HookCounterOne from './components/HookCounterOne';
@@ -82,7 +83,9 @@ function App() {
       
       {/* <ParentComponent /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <FocusInput />
     </div>
   );
 }
