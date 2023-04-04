@@ -2,6 +2,7 @@ import { createContext, useReducer } from 'react';
 import './App.css';
 import ClassCounter from './components/ClassCounter';
 import ClassMouse from './components/ClassMouse';
+import ClassTimer from './components/ClassTimer';
 import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
@@ -19,6 +20,7 @@ import HookCounterOne from './components/HookCounterOne';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookMouse from './components/HookMouse';
+import HookTimer from './components/HookTimer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
@@ -85,7 +87,10 @@ function App() {
 
       {/* <Counter /> */}
 
-      <FocusInput />
+      {/* <FocusInput /> */}
+
+      <ClassTimer />
+      <HookTimer />
     </div>
   );
 }
