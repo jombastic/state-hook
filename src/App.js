@@ -25,6 +25,11 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
 import ParentComponent from './components/ParentComponent';
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
+import CounterPoNeZnamKojPat from './components/CounterPoNeZnamKojPat';
+import CounterTwoPoNeZnamKojPat from './components/CounterTwoPoNeZnamKojPat';
+import UserForm from './components/UserForm';
 
 export const UserContext = createContext();
 export const ChanelContext = createContext()
@@ -89,8 +94,16 @@ function App() {
 
       {/* <FocusInput /> */}
 
-      <ClassTimer />
-      <HookTimer />
+      {/* <ClassTimer />
+      <HookTimer /> */}
+
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+
+      {/* <CounterPoNeZnamKojPat />
+      <CounterTwoPoNeZnamKojPat /> */}
+
+      <UserForm />
     </div>
   );
 }
